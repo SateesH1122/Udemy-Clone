@@ -1,0 +1,216 @@
+*{
+    background-color: white;
+    color:black;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.ad{
+    background-color: rgba(196, 196, 6, 0.51);
+    text-align: center;
+    margin:0;
+    padding:30px 0;
+}
+.ad h3,b{
+    background-color: rgba(196, 196, 6, 0.01);
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 40px;
+}
+#logo{
+    width:120px;
+    height:45px;
+    margin:20px 20px 20px 40px;
+}
+.nav1 input{
+    width: 800px;
+    height:60px;
+    border-radius: 0 30px 30px 0;
+    background-color:ghostwhite;
+    border-left:none;
+    margin-left:0;
+}
+#sicon{
+    height:60px;
+    border-radius: 30px 0 0 30px;
+    border:2px solid black;
+    border-right:none;
+    margin-right:0;
+}
+.nav1 *{
+    margin:20px 20px;
+}
+.nav1{
+    display: flex;
+}
+.header nav1{
+    position: fixed;
+}
+.nav1 p{
+    margin:20px 7px 20px 7px;
+    text-align:center;
+    padding-top:20px;
+}
+.icon{
+    height:40px;
+    margin:22px;
+    margin-top:27px;
+    padding: 5px;
+    position: relative;
+}
+
+.icon:hover{
+    border: 2px solid purple;
+}
+#pk{
+    height:50px;
+}
+#pk:hover{
+    border: 2px solid purple;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 13%;
+}
+main{
+    margin:0 7%;
+}
+.txt{
+    width:400px;
+    margin:0;
+    padding:30px;
+}
+.imgtxt img{
+    width:100%;
+    height:auto;
+}
+.imgtxt{
+    position:relative;
+}
+.txt{
+    position: absolute;
+    top: 100px;
+    left:100px;
+}
+.sideimage{
+    width: 200px;
+    height:200px;
+    padding:0;
+    margin:0;
+}
+.list{
+    display: flex;
+    width: 33.33%;
+    height:auto ;
+    padding: 10px;
+    margin:10px;
+    padding-bottom:0;
+    border: 1px solid black;
+}
+.playlist{
+    padding: 10px 0;
+    display: flex;
+    width:100%;
+}
+.played{
+    border:5px solid purple;
+    outline:1px solid black;
+}
+.banner{
+    margin:0;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 90px;
+    padding-right:50px;
+}
+.banner button{
+    padding: 10px 20px;
+}
+.banner p{
+    background-color: black;
+    color:white;
+    float:left;
+    padding:0 50px;
+    font-weight: bold;
+}
+.dl{
+    margin: 20px 0;
+}
+.bannerdl{
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    height:auto;
+}
+.banner *{
+    background-color:azure
+}
+#details{
+    padding:20px;
+    width:600px;
+    align-items: center;
+    font-weight: bold;
+}
+#details h2{
+    align-items:end
+}
+#dlimage{
+    padding:20px;
+}
+.recommend{
+    width:100%;
+    margin:0;
+}
+.recommend table{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.recommend table tr td{
+    padding : 20px;
+    border:1px solid grey;
+    text-align: center;
+    font-weight:bold;
+    width:20%;
+    box-sizing: border-box;
+    border-spacing:100px;
+}
+.recommend table tr{
+    justify-content: space-evenly;
+    margin:10px;
+}
+.ddbut{
+    background-color: green;
+    color:white;
+    padding:20px;
+    font-size:16px;
+}
+.ddcon{
+    display:none;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: black;
+    color:white;
+    width:100%;
+    height:70px;
+    z-index: 1;
+    align-items: center;
+}
+.ddcon a{
+    background-color: black;
+    color:white;
+}
+
+.dd:hover.ddcon{
+    display: flex;
+}
